@@ -8,6 +8,7 @@ https://templatemo.com/tm-572-designer
 
 body {
   font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .expanded {
@@ -324,15 +325,14 @@ button:focus:not(:focus-visible) {
 }
 
 .main-banner {
-  background-color: #333;
-  background-image: url(../images/banner-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 170px 0px 270px 0px;
-  text-align: center;
+    background-color: #333;
+    background-image: url(../images/lipyum/photo-1517048676732-d65bc937f952.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 170px 0px 270px 0px;
+    text-align: center;
 }
-
 @media (min-width: 576px) {
   .main-banner {
     padding: 270px 0px 400px 0px;
@@ -614,7 +614,7 @@ section.whats-trending .right-image::after {
 section.contact-us {
   margin-top: 60px;
   padding: 60px 0px;
-  background-image: url(../images/contact-us-bg.jpg);
+  background-image: url(../images/page-banner-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

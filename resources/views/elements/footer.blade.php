@@ -3,15 +3,14 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="about-widget">
-                    <img src="assets/images/footer-logo.png" alt="designer template by TemplateMo">
-                    <p>Designer is free Bootstrap v5.1.3 CSS template. Everyone can get the best HTML CSS templates from
-                        TemplateMo website.</p>
+                    <img width="210" height="52" style="width: auto; height: 52px;" src="{{ asset('images/lipyum/lipyum-yatay.png') }}" alt="designer template by TemplateMo">
+                    <p>Hizmet veren ya da Hizmet gönderen olun! Kâr ve kazanç elde edin. Nedir ve nasıl işler merak ediyorsanız hemen kaydolun ve iş almaya veya göndermeye başlayın.</p>
                 </div>
             </div>
             <div class="col-lg-2 offset-lg-2">
                 <div class="location-widget">
                     <h4>Our Location</h4>
-                    <p>Sunny Isles Beach, <br><br>Florida 33160, <br>United States</p>
+                    <p>Sunny Isles Beach,<br>Florida 33160, <br>United States</p>
                 </div>
             </div>
             <div class="col-lg-2">
@@ -26,7 +25,7 @@
             </div>
             <div class="col-lg-2">
                 <div class="follow-us">
-                    <h4>Follow Us</h4>
+                    <h4>Takip Et</h4>
                     <ul class="social-links">
                         <li>
                             <a href="#">
@@ -61,38 +60,15 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-6 offset-lg-6">
-                <h4>Subscribe To Our Newsletter</h4>
-                <form id="subscribe" action="" method="get">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
-                                placeholder="Type your email..." required="">
-                            <button type="submit" id="form-submit" class="text-button ">
-                                Submit
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
-                                    class="bi bi-arrow-right-short" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
             <div class="col-lg-12">
                 <div class="sub-footer">
                     <div class="row">
                         <div class="col-lg-6">
-                            <p>Copyright © 2022 Designer Co., Ltd. All Rights Reserved.
-
-                                <br>Design: <a rel="sponsored" href="https://templatemo.com"
-                                    target="_blank">TemplateMo</a>
-                            </p>
+                            <p>Lipyum © <script>document.write(new Date().getFullYear())</script> - Tüm Hakları saklıdır</p>
                         </div>
                         <div class="col-lg-6">
                             <a href="#top" class="scroll-to-top">
-                                Go to Top
+                                Sayfanın başına dön
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd"

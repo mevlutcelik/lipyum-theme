@@ -1,16 +1,15 @@
-<section class="whats-trending">
+<section class="whats-trending" style="margin: 5rem 0;">
     <div class="container expanded">
         <div class="row">
             <div class="col-lg-6 align-self-center">
                 <div class="section-heading">
-                    <h2>Check Out Whats Trending In<br><em>Our Interior Work</em>.</h2>
+                    <h2>LİPYUM - MÜŞTERİ<br><em>DEĞİŞİM PROGRAMI</em></h2>
                 </div>
                 <div class="left-content">
-                    <p>Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito adipcingi elit, sed do
-                        eismuod larehai med at vero eos et suscipit neque rerum molestias accusamus et iusto odio
-                        dignissimos ducimus qui blanditis.</p>
+                    <p>Hizmet veren ya da Hizmet gönderen olun! Kâr ve kazanç elde edin. Nedir ve nasıl işler merak ediyorsanız hemen kaydolun ve iş almaya veya göndermeye başlayın.</p>
                     <div class="primary-button">
-                        <a href="#">Discover More</a>
+                        <a href="#">Üye Ol</a>
+                        <a href="#">Giriş yap</a>
                     </div>
                 </div>
             </div>
