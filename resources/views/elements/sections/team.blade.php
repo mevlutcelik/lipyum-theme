@@ -9,8 +9,8 @@
     }
 
     .parent-team::-webkit-scrollbar {
-        width: 4px;
-        height: 4px;
+        width: 0;
+        height: 0;
         background: transparent;
     }
 
@@ -231,31 +231,32 @@
     </div>
 </section>
 <script>
-    const slider = document.querySelector('.parent');
-    let mouseDown = false;
-    let startX, scrollLeft;
+    const sliderTeam = document.querySelector('.parent-team');
+    console.log(sliderTeam);
+    let mouseDownTeam = false;
+    let startXTeam, scrollLeftTeam;
 
     let startDragging = function (e) {
-        mouseDown = true;
-        startX = e.pageX - slider.offsetLeft;
-        scrollLeft = slider.scrollLeft;
+        mouseDownTeam = true;
+        startXTeam = e.pageX - sliderTeam.offsetLeft;
+        scrollLeftTeam = sliderTeam.scrollLeft;
     };
     let stopDragging = function (event) {
-        mouseDown = false;
+        mouseDownTeam = false;
     };
 
-    slider.addEventListener('mousemove', (e) => {
+    sliderTeam.addEventListener('mousemove', (e) => {
         e.preventDefault();
-        if (!mouseDown) {
+        if (!mouseDownTeam) {
             return;
         }
-        const x = e.pageX - slider.offsetLeft;
-        const scroll = x - startX;
-        slider.scrollLeft = scrollLeft - scroll;
+        const x = e.pageX - sliderTeam.offsetLeft;
+        const scrollTeam = x - startXTeam;
+        sliderTeam.scrollLeft = scrollLeftTeam - scroll;
     });
 
     // Add the event listeners
-    slider.addEventListener('mousedown', startDragging, false);
-    slider.addEventListener('mouseup', stopDragging, false);
-    slider.addEventListener('mouseleave', stopDragging, false);
+    sliderTeam.addEventListener('mousedown', startDragging, false);
+    sliderTeam.addEventListener('mouseup', stopDragging, false);
+    sliderTeam.addEventListener('mouseleave', stopDragging, false);
 </script>

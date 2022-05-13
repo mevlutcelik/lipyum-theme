@@ -9,8 +9,8 @@
     }
 
     .parent::-webkit-scrollbar {
-        width: 4px;
-        height: 4px;
+        width: 0;
+        height: 0;
         background: transparent;
     }
 
