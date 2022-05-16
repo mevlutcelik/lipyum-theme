@@ -74,6 +74,13 @@ p {
     user-select: none;
 }
 
+@media all and (max-width: 600px) {
+    .main-button{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
 .main-button:hover {
     background-color: #2a2a2a;
     color: #fff;

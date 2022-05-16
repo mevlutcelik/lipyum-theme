@@ -76,7 +76,7 @@
                 <div class="testimonials">
                     <div class="row">
                         <div class="section-heading">
-                            <h2 style="color:#7c47bf;margin-left: 3rem;text-align: center;">YORUMLAR</h2>
+                            <h2 style="color:#7c47bf;text-align: center;">YORUMLAR</h2>
                         </div>
                         <div class="parent-comment what-they-say">
                             <div class="customer-comment-card">
@@ -202,7 +202,7 @@
                                             <path class="icon" d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"></path>
                                         </svg>
                                     </div>
-                                    <h4>Murtaza Sıkıntı</h4>
+                                    <h4>R***** P******</h4>
                                     <ul>
                                         <li>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#ff565b" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -354,7 +354,7 @@
                                             <path class="icon" d="M7.066 6.76A1.665 1.665 0 0 0 4 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 7.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 0 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"></path>
                                         </svg>
                                     </div>
-                                    <h4>Murtaza Sıkıntı</h4>
+                                    <h4>C**** E****</h4>
                                     <ul>
                                         <li>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#ff565b" class="bi bi-star-fill" viewBox="0 0 16 16">

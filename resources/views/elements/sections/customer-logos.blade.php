@@ -82,7 +82,7 @@
                 <div class="testimonials">
                     <div class="row">
                         <div class="section-heading">
-                            <h2 style="color:#7c47bf;margin-left: 3rem;text-align: center;">Müşterilerimiz</h2>
+                            <h2 style="color:#7c47bf;text-align: center;">Müşterilerimiz</h2>
                         </div>
                         <div class="parent">
                             <div class="parent-child">
