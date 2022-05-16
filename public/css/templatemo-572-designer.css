@@ -337,12 +337,12 @@ button:focus:not(:focus-visible) {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 170px 0px 270px 0px;
+    padding: 120px 0px 200px 0px;
     text-align: center;
 }
 @media (min-width: 576px) {
     .main-banner {
-        padding: 270px 0px 400px 0px;
+        padding: 160px 0px 340px 0px;
     }
 }
 
