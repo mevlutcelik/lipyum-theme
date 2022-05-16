@@ -1,11 +1,16 @@
 <style>
     .testimonial-item{
         height: fit-content;
+        height: 280px;
     }
 
     .testimonial-item p {
         font-size: 0.75rem;
         display: contents;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow:hidden;
     }
     .parent-comment {
         overflow-y: hidden;
