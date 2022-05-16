@@ -9,17 +9,19 @@
             </div>
             <div class="col-lg-2 offset-lg-2">
                 <div class="location-widget">
-                    <h4>Our Location</h4>
-                    <p>Sunny Isles Beach,<br>Florida 33160, <br>United States</p>
+                    <h4>Lipyum</h4>
+                    <ul class="info">
+                        <li><a href="{{ route('about') }}">Hakkımızda</a></li>
+                        <li><a href="#">İletişim</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="col-lg-2">
                 <div class="customer-care">
-                    <h4>Customer Care</h4>
+                    <h4>Politikalar</h4>
                     <ul class="info">
-                        <li><a href="#">010-020-0340</a></li>
-                        <li><a href="#">090-080-0760</a></li>
-                        <li><a href="#">info@company.com</a></li>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                        <li><a href="#">Çerez Politikası</a></li>
                     </ul>
                 </div>
             </div>

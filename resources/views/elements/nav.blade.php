@@ -13,9 +13,6 @@
                         <a title="Anasayfa" class="nav-link {{ Route::is('home-page') ? 'active' : null }}" href="{{ route('home-page') }}">Anasayfa</a>
                     </li>
                     <li class="nav-item">
-                        <a title="Hakkımızda" class="nav-link {{ Route::is('about') ? 'active' : null }}" href="{{ route('about') }}">Hakkımızda</a>
-                    </li>
-                    <li class="nav-item">
                         <a title="Giriş Yap" class="nav-link" href="#!">Giriş Yap</a>
                     </li>
                     <li class="nav-item">

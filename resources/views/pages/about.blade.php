@@ -2,17 +2,19 @@
 
 @section('title', 'Lipyum - Hakkımızda')
 
+@section('header-page-class', 'page-banner')
+@section('header-content-class', 'services')
+
 @section('header-top-content')
-    @include('elements.headers.top-content.home')
+    @include('elements.headers.top-content.about')
 @endsection
 
 @section('header-content')
-    @include('elements.headers.content.home')
+    @include('elements.headers.content.about')
 @endsection
 
 @section('content')
-    @include('elements.sections.whats-trending')
-    @include('elements.sections.customer-logos')
+    @include('elements.sections.faq')
     @include('elements.sections.comments')
     @include('elements.sections.team')
     @include('elements.sections.contact-us')

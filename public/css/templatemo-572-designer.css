@@ -53,23 +53,26 @@ p {
   color: #7a7a7a;
 }
 
-button.main-button {
-  font-size: 14px;
-  text-transform: capitalize;
-  font-weight: 400;
-  color: #ffffff;
-  background-color: #ff565b;
-  padding: 11px 25px;
-  border-radius: 7.5px;
-  display: inline-block;
-  outline: none;
-  border: none;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+.main-button {
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #ff565b;
+    padding: 11px 25px;
+    border-radius: 7.5px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    user-select: none;
 }
 
-button.main-button:hover {
+.main-button:hover {
   background-color: #2a2a2a;
+    color: #fff;
 }
 
 .primary-button a {
@@ -402,7 +405,7 @@ button:focus:not(:focus-visible) {
   margin-bottom: 30px;
 }
 
-.search-form #search-form button.main-button {
+.search-form #search-form .main-button {
   width: 100%;
 }
 
@@ -689,7 +692,7 @@ section.contact-us form textarea {
   margin-bottom: 15px;
 }
 
-section.contact-us form button.main-button {
+section.contact-us form .main-button {
   width: 100%;
 }
 
@@ -1514,7 +1517,7 @@ section.contact-us-page .contact-page-form form textarea {
   margin-bottom: 15px;
 }
 
-section.contact-us-page .contact-page-form form button.main-button {
+section.contact-us-page .contact-page-form form .main-button {
   width: 100%;
 }
 

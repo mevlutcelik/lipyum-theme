@@ -2,6 +2,9 @@
 
 @section('title', 'Lipyum')
 
+@section('header-page-class', 'main-banner')
+@section('header-content-class', 'search-form')
+
 @section('header-top-content')
     @include('elements.headers.top-content.home')
 @endsection
