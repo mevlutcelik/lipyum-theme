@@ -35,7 +35,7 @@
     .customer-card {
         float: left;
         font-size: 14px;
-        padding: 1rem;
+        padding: 0.5rem;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         margin-right: 3rem;
         display: flex;
@@ -44,13 +44,18 @@
         border-radius: 0.5rem;
         cursor: pointer;
         color: #1a1e21;
+        transition: all 0.3s;
+    }
+
+    .customer-card:active{
+        box-shadow: none;
     }
 
     .customer-card img {
         height: 2rem;
         width: auto;
         min-width: 2rem;
-        margin-right: 1rem;
+        border-radius: 0.25rem;
     }
 
     .customer-card .item-text {
@@ -77,79 +82,61 @@
                 <div class="testimonials">
                     <div class="row">
                         <div class="section-heading">
-                            <h2 style="color:#7c47bf;margin-left: 3rem;">Müşterilerimiz</h2>
+                            <h2 style="color:#7c47bf;margin-left: 3rem;text-align: center;">Müşterilerimiz</h2>
                         </div>
                         <div class="parent">
                             <div class="parent-child">
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://hemenhizmetal.com/favicon.png" alt="Hemenhizmetal">
-                                    <div class="item-text">
-                                        Hemen Hizmet Al
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/img/favicon.png" alt="Hemengeliriz">
-                                    <div class="item-text">
-                                        Hemen Geliriz
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://www.hemenhizmet.com/favicon.png" alt="Hemenhizmet">
-                                    <div class="item-text">
-                                        Hemen Hizmet
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/img/favicon.png" alt="Hemengeliriz">
-                                    <div class="item-text">
-                                        Hemen Geliriz
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://www.hemenhizmetal.com/favicon.png" alt="Hemenhizmetal">
-                                    <div class="item-text">
-                                        Hemen Hizmet Al
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://hemenhizmetal.com/favicon.png" alt="Hemenhizmetal">
-                                    <div class="item-text">
-                                        Hemen Hizmet Al
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/img/favicon.png" alt="Hemengeliriz">
-                                    <div class="item-text">
-                                        Hemen Geliriz
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://www.hemenhizmet.com/favicon.png" alt="Hemenhizmet">
-                                    <div class="item-text">
-                                        Hemen Hizmet
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/img/favicon.png" alt="Hemengeliriz">
-                                    <div class="item-text">
-                                        Hemen Geliriz
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://www.hemenhizmetal.com/favicon.png" alt="Hemenhizmetal">
-                                    <div class="item-text">
-                                        Hemen Hizmet Al
-                                    </div>
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
                                 </a>
                             </div>
                         </div>

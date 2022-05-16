@@ -53,23 +53,17 @@
                     </div>
                     <div class="col-lg-4">
                         <fieldset>
-                            <label for="searchTitle" class="form-label">E-posta Adresin</label>
-                            <input type="email" name="email" class="form-control" placeholder="E-posta Adresin">
-                        </fieldset>
-                    </div>
-                    <div class="col-lg-4">
-                        <fieldset>
                             <label for="searchTitle" class="form-label">Telefon Numaran<sup>*</sup></label>
                             <input type="text" name="phone" pattern="[0-9]{10}" class="form-control"
                                    placeholder="Telefon Örn: 5123456789">
                         </fieldset>
                     </div>
+                    <button type="submit" id="sumbit-form-button" style="display: none;height: 44px;width: calc((100% / 3) - 1.5rem);margin: 46px 0.75rem;" class="main-button">Gönder</button>
                 </div>
             </div>
             <div class="col-lg-12">
                 <fieldset>
-                    <button type="submit" id="sumbit-form-button" style="display: none;" class="main-button">Gönder</button>
-                    <a title="Devam et" id="go-form" class="main-button" href="#!">Devam et</a>
+                    <a title="Devam et" style="width: 100%;" id="go-form" class="main-button" href="#!">Devam et</a>
                 </fieldset>
             </div>
         </div>

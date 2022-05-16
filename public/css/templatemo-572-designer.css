@@ -409,9 +409,9 @@ button:focus:not(:focus-visible) {
     margin-bottom: 30px;
 }
 
-.search-form #search-form .main-button {
-    width: 100%;
-}
+/*.search-form #search-form .main-button {*/
+/*    width: 100%;*/
+/*}*/
 
 section.explore-work .left-image img {
     border-radius: 7.5px;

@@ -4,44 +4,55 @@
 
             <div class="col-lg-12 align-self-center">
                 <div class="right-content">
-                    <p>Designer HTML5 Template is 100% free to download provided by TemplateMo website. You are allowed to use this template for your commercial or business websites. You are <strong>NOT allowed</strong> to redistribute the downloadable ZIP file of this template on any other website. Please contact us for more info.
-
-                        <br><br>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel cilisis lorem ipsum dolor sit amet, consectetur adipiscingii elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div class="accordion" id="accordionExample">
                         <h4>Sık Sorulan Sorular (SSS)</h4>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                    What is Interior Design?
+                                    Neden Lipyum?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <strong>sed do eiusmod tempor incididunt ut labore</strong> et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas ai accumsan lacus vel cilisis lorem ipsum dolor sit amet, consectetur adipiscingii elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>
+                                        <i style="font-size:18px;color: #7c47bf;margin-right: 0.5rem;" class="fa fa-star"></i>
+                                        Servis sağlayıcılarımızın en yüksek değerlendirme alanlarını sizler için seçiyoruz.
+                                    </p>
+                                    <p>
+                                        <i style="font-size:18px;color: #7c47bf;margin-right: 0.5rem;" class="fa fa-shield-alt"></i>
+                                        Yılda 20.000 den fazla insan Lipyum'a güveniyor.
+                                    </p>
+                                    <p>
+                                        <i style="font-size:18px;color: #7c47bf;margin-right: 0.5rem;" class="fa fa-thumbs-up"></i>
+                                        Tüm servis sağlayıcılarımızın en iyi hizmeti verdiğinden emin oluyoruz.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What is Exterior Decoration?
+                                    Misyonumuz Nedir?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas ai accumsan <strong>lacus vel cilisis lorem ipsum dolor sit amet</strong>, consectetur adipiscingii elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p>
+                                        Hizmet sektörüne yönelik alanlarda tüm iş ve süreç modellerini tek platform üzerinde toplayarak kullanıcılara hızlı, hesaplı ve
+                                        kaliteli hizmetler sunabilmek.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    3D Rendering Models
+                                    Vizyonumuz Nedir?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas ai accumsan lacus vel cilisis lorem ipsum dolor sit amet, consectetur adipiscingii elit, <strong>sed do eiusmod tempor incididunt ut labore et dolore</strong> magna aliqua.</p>
+                                    <p>
+                                        Global pazarda marka bilinirliği yüksek unicorn bir girişim olmak.</p>
                                 </div>
                             </div>
                         </div>

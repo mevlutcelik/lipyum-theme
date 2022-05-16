@@ -83,28 +83,28 @@
         return false;
     });
 
-    $('#owl-what-they-say').owlCarousel({
-        items: 2,
-        loop: true,
-        dots: false,
-        nav: false,
-        autoplay: true,
-        margin: 32,
-        responsive: {
-            0: {
-                items: 1
-            },
-            767: {
-                items: 2
-            },
-            1200: {
-                items: 3
-            },
-            1600: {
-                items: 4
-            }
-        }
-    })
+    // $('#owl-what-they-say').owlCarousel({
+    //     items: 2,
+    //     loop: true,
+    //     dots: false,
+    //     nav: false,
+    //     autoplay: true,
+    //     margin: 32,
+    //     responsive: {
+    //         0: {
+    //             items: 1
+    //         },
+    //         767: {
+    //             items: 2
+    //         },
+    //         1200: {
+    //             items: 3
+    //         },
+    //         1600: {
+    //             items: 4
+    //         }
+    //     }
+    // })
 
     const ele = $('#customer-logo');
     ele.scrollTop = 100;
