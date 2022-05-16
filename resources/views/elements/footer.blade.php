@@ -12,7 +12,7 @@
                     <h4>Lipyum</h4>
                     <ul class="info">
                         <li><a href="{{ route('about') }}">Hakkımızda</a></li>
-                        <li><a href="#">İletişim</a></li>
+                        <li><a href="{{ route('contact') }}">İletişim</a></li>
                     </ul>
                 </div>
             </div>

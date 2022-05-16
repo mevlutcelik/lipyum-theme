@@ -1,4 +1,4 @@
-<section class="contact-us" id="contact">
+<section class="contact-us" style="@yield('contact-style')" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 left-form">
