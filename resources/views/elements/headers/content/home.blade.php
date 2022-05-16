@@ -28,15 +28,15 @@
                 <fieldset>
                     <label for="searchTitle" class="form-label">Müşteri başına ne kadar ödeyeceksin?</label>
                     <div class="input-group">
-                        <span class="input-group-text"
-                              style="border-radius:7.5px 0 0 7.5px;width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;background-color: #ff565b;border-color: #ff565b"
+                        <label for="how-much-per-customer" class="input-group-text"
+                              style="border-radius:7.5px 0 0 7.5px;width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;background-color: #7c47bf;border-color: #7c47bf"
                               id="basic-addon1">
                             <svg style="width: 14px;height: 14px;" fill="#fff" xmlns="http://www.w3.org/2000/svg"
                                  width="24" height="24" viewBox="0 0 24 24"><path
                                     d="M17 13c-.518 3.571-2.976 7.609-8 8v-11l7-2v-2l-7 2v-2l7-2v-2l-7 2v-4h-4v5.143l-3 .857v2l3-.857v2l-3 .857v2l3-.857v12.857h.621c4.744 0 7.872-.245 11.016-3.582 1.835-1.948 3.057-4.646 3.363-7.418h-3z"/></svg>
-                        </span>
+                        </label>
                         <input
-                            style="width: calc(100% - 44px);border-top-left-radius: 0;border-bottom-left-radius: 0;border-left-color: #ff565b;"
+                            style="width: calc(100% - 44px);border-top-left-radius: 0;border-bottom-left-radius: 0;border-left-color: #7c47bf;" id="how-much-per-customer"
                             type="number" class="form-control" placeholder="Müşteri başına ne kadar ödeyeceksin?"
                             aria-label="Müşteri başına ne kadar ödeyeceksin?" aria-describedby="basic-addon1">
                     </div>
@@ -54,7 +54,7 @@
                     <div class="col-lg-4">
                         <fieldset>
                             <label for="searchTitle" class="form-label">E-posta Adresin</label>
-                            <input type="text" name="email" class="form-control" placeholder="E-posta Adresin">
+                            <input type="email" name="email" class="form-control" placeholder="E-posta Adresin">
                         </fieldset>
                     </div>
                     <div class="col-lg-4">

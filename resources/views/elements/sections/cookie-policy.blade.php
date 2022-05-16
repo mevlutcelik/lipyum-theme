@@ -3,7 +3,7 @@
         <div class="row">
 
             <div class="col-lg-12">
-                <div>
+                <div class="container">
                     <h2><b>Çerez Nedir?</b></h2>
                     <p>Çerez, bir web sitesi sunucusu tarafından bilgisayarınıza veya mobil cihazınıza kaydedilen basit bir
                         metin dosyasıdır. Sadece bu sunucu ilgili çerezin içeriğine erişebilir veya bu bilgileri okuyabilir.</p>

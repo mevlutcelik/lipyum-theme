@@ -20,8 +20,8 @@
                 <div class="customer-care">
                     <h4>Politikalar</h4>
                     <ul class="info">
-                        <li><a href="#">Gizlilik Politikası</a></li>
-                        <li><a href="#">Çerez Politikası</a></li>
+                        <li><a href="{{ route('privacy-policy') }}">Gizlilik Politikası</a></li>
+                        <li><a href="{{ route('cookie-policy') }}">Çerez Politikası</a></li>
                     </ul>
                 </div>
             </div>
