@@ -26,7 +26,7 @@
     <url>
         <loc>https://www.lipyum.com/cookie-policy</loc>
         <lastmod>{{ date("c") }}</lastmod>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
 </urlset>

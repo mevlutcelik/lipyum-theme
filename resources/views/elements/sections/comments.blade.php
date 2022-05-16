@@ -4,6 +4,9 @@
             <div class="col-lg-12">
                 <div class="testimonials">
                     <div class="row">
+                        <div class="section-heading">
+                            <h2 style="color:#7c47bf;margin-left: 3rem;">Yorumlar</h2>
+                        </div>
                         <div class="col-lg-12"> {{-- if(bg-image === true) ? col-lg-7 : col-lg-12 --}}
                             <div id="owl-what-they-say" class="owl-what-they-say owl-carousel owl-loaded owl-drag">
                                 <div class="owl-stage-outer">
