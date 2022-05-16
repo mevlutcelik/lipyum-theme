@@ -70,7 +70,7 @@
     }
 </style>
 <section style="margin: 15rem 0;">
-    <div class="container expanded" style="padding: 0 4rem">
+    <div class="container expanded">
         <div class="row">
             <div class="col-lg-12">
                 <div class="testimonials">

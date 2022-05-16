@@ -1,4 +1,4 @@
-<section class="whats-trending" style="margin: 5rem 0;">
+<section class="whats-trending" style="margin: 5rem 3rem;">
     <div class="container expanded">
         <div class="row">
             <div class="col-lg-6 align-self-center">

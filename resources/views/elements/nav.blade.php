@@ -11,8 +11,15 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a title="Anasayfa" class="nav-link {{ Route::is('home-page') ? 'active' : null }}" href="{{ route('home-page') }}">Anasayfa</a>
-{{--                        <a title="Anasayfa" class="nav-link" href="{{ route('login') }}">Giriş Yap</a>--}}
-{{--                        <a title="Anasayfa" class="nav-link" href="{{ route('register') }}">Üye Ol</a>--}}
+                    </li>
+                    <li class="nav-item">
+                        <a title="Hakkımızda" class="nav-link {{ Route::is('about') ? 'active' : null }}" href="{{ route('about') }}">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Giriş Yap" class="nav-link" href="#!">Giriş Yap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Üye Ol" class="nav-link" href="#!">Üye Ol</a>
                     </li>
                 </ul>
             </div>

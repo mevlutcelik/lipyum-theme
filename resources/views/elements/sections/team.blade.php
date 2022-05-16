@@ -82,7 +82,7 @@
     }
 </style>
 <section style="margin: 15rem 0;">
-    <div class="container expanded" style="padding: 0 4rem;">
+    <div class="container expanded">
         <div class="row">
             <div class="col-lg-12">
                 <div class="testimonials">
@@ -232,16 +232,15 @@
 </section>
 <script>
     const sliderTeam = document.querySelector('.parent-team');
-    console.log(sliderTeam);
     let mouseDownTeam = false;
     let startXTeam, scrollLeftTeam;
 
-    let startDragging = function (e) {
+    let startDraggingTeam = function (e) {
         mouseDownTeam = true;
         startXTeam = e.pageX - sliderTeam.offsetLeft;
         scrollLeftTeam = sliderTeam.scrollLeft;
     };
-    let stopDragging = function (event) {
+    let stopDraggingTeam = function (event) {
         mouseDownTeam = false;
     };
 
@@ -250,13 +249,13 @@
         if (!mouseDownTeam) {
             return;
         }
-        const x = e.pageX - sliderTeam.offsetLeft;
-        const scrollTeam = x - startXTeam;
-        sliderTeam.scrollLeft = scrollLeftTeam - scroll;
+        const xTeam = e.pageX - sliderTeam.offsetLeft;
+        const scrollTeam = xTeam - startXTeam;
+        sliderTeam.scrollLeft = scrollLeftTeam - scrollTeam;
     });
 
     // Add the event listeners
-    sliderTeam.addEventListener('mousedown', startDragging, false);
-    sliderTeam.addEventListener('mouseup', stopDragging, false);
-    sliderTeam.addEventListener('mouseleave', stopDragging, false);
+    sliderTeam.addEventListener('mousedown', startDraggingTeam, false);
+    sliderTeam.addEventListener('mouseup', stopDraggingTeam, false);
+    sliderTeam.addEventListener('mouseleave', stopDraggingTeam, false);
 </script>
