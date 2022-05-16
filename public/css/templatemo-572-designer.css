@@ -1017,19 +1017,19 @@ section.interior-design .right-content .accordion-body {
     border-top: none;
 }
 
-.what-they-say .testimonials {
-    background-image: url(../images/testimonial-bg.png);
-    background-repeat: no-repeat;
-    background-size: 815px 560px;
-    background-position: center center;
-    border-radius: 7.5px;
-}
+/*.what-they-say .testimonials {*/
+/*    background-image: url(../images/testimonial-bg.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 815px 560px;*/
+/*    background-position: center center;*/
+/*    border-radius: 7.5px;*/
+/*}*/
 
-@media (min-width: 992px) {
-    .what-they-say .testimonials {
-        background-position: center right;
-    }
-}
+/*@media (min-width: 992px) {*/
+/*    .what-they-say .testimonials {*/
+/*        background-position: center right;*/
+/*    }*/
+/*}*/
 
 .what-they-say .col-lg-6 {
     padding: 0px;

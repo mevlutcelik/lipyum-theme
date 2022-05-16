@@ -14,7 +14,7 @@
 @endsection
 
 @section('content')
-    @include('elements.sections.faq')
+    @include('elements.sections.FAQ')
     @include('elements.sections.comments')
     @include('elements.sections.team')
     @include('elements.sections.contact-us')

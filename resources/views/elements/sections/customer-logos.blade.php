@@ -42,7 +42,8 @@
         align-items: center;
         justify-content: center;
         border-radius: 0.5rem;
-        cursor: context-menu;
+        cursor: pointer;
+        color: #1a1e21;
     }
 
     .customer-card img {
@@ -80,76 +81,76 @@
                         </div>
                         <div class="parent">
                             <div class="parent-child">
-                                <div class="customer-card">
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://hemenhizmetal.com/favicon.png" alt="Hemenhizmetal">
                                     <div class="item-text">
                                         Hemen Hizmet Al
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://www.hemengeliriz.com/assets2/img/favicon.png" alt="Hemengeliriz">
                                     <div class="item-text">
                                         Hemen Geliriz
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://www.hemenhizmet.com/favicon.png" alt="Hemenhizmet">
                                     <div class="item-text">
                                         Hemen Hizmet
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://www.hemengeliriz.com/assets2/img/favicon.png" alt="Hemengeliriz">
                                     <div class="item-text">
                                         Hemen Geliriz
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://www.hemenhizmetal.com/favicon.png" alt="Hemenhizmetal">
                                     <div class="item-text">
                                         Hemen Hizmet Al
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://hemenhizmetal.com/favicon.png" alt="Hemenhizmetal">
                                     <div class="item-text">
                                         Hemen Hizmet Al
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://www.hemengeliriz.com/assets2/img/favicon.png" alt="Hemengeliriz">
                                     <div class="item-text">
                                         Hemen Geliriz
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://www.hemenhizmet.com/favicon.png" alt="Hemenhizmet">
                                     <div class="item-text">
                                         Hemen Hizmet
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://www.hemengeliriz.com/assets2/img/favicon.png" alt="Hemengeliriz">
                                     <div class="item-text">
                                         Hemen Geliriz
                                     </div>
-                                </div>
-                                <div class="customer-card">
+                                </a>
+                                <a href="#!" class="customer-card">
                                     <img
                                         src="https://www.hemenhizmetal.com/favicon.png" alt="Hemenhizmetal">
                                     <div class="item-text">
                                         Hemen Hizmet Al
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -4,7 +4,7 @@
             <div class="col-lg-12">
                 <div class="testimonials">
                     <div class="row">
-                        <div class="col-lg-7">
+                        <div class="col-lg-12"> {{-- if(bg-image === true) ? col-lg-7 : col-lg-12 --}}
                             <div id="owl-what-they-say" class="owl-what-they-say owl-carousel owl-loaded owl-drag">
                                 <div class="owl-stage-outer">
                                     <div class="owl-stage"

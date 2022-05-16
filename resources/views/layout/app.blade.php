@@ -95,13 +95,13 @@
                 items: 1
             },
             767: {
-                items: 1
+                items: 2
             },
             1200: {
-                items: 2
+                items: 3
             },
             1600: {
-                items: 2
+                items: 4
             }
         }
     })
