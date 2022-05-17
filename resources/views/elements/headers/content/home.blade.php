@@ -1,6 +1,7 @@
 <div class="col-lg-12">
     <form id="search-form" name="gs" method="submit" role="search" autocomplete="off" action="#">
         <div class="row">
+            <div class="col-lg-12" id="lp-alert-message"></div>
             <div class="col-lg-4">
                 <fieldset>
                     <label for="which-service" class="form-label">Hangi sektör?</label>
@@ -36,7 +37,7 @@
                         </label>
                         <input name="how-much-customer" id="how-much-customer" style="width: calc(100% - 44px);border-top-left-radius: 0;border-bottom-left-radius: 0;border-left-color: #7c47bf;" id="how-much-per-customer"
                             type="number" class="form-control" placeholder="Müşteri başına ne kadar ödeyeceksin?"
-                            aria-label="Müşteri başına ne kadar ödeyeceksin?" aria-describedby="how-much-customer">
+                            aria-label="Müşteri başına ne kadar ödeyeceksin?" aria-describedby="how-much-customer" required>
                     </div>
                 </fieldset>
             </div>
@@ -44,16 +45,16 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <fieldset>
-                            <label for="name-and-surname" class="form-label">Adın ve Soyadın<sup>*</sup></label>
+                            <label for="name-and-surname" class="form-label">Adın ve Soyadın</label>
                             <input type="text" id="name-and-surname" name="name-and-surname" class="form-control" placeholder="Adın ve Soyadın"
                                    required>
                         </fieldset>
                     </div>
                     <div class="col-lg-4">
                         <fieldset>
-                            <label for="phone" class="form-label">Telefon Numaran<sup>*</sup></label>
+                            <label for="phone" class="form-label">Telefon Numaran</label>
                             <input type="text" id="phone" name="phone" pattern="[0-9]{10}" class="form-control"
-                                   placeholder="Telefon Örn: 5123456789">
+                                   placeholder="Telefon Örn: 5123456789" required>
                         </fieldset>
                     </div>
                     <button type="submit" id="sumbit-form-button" style="display: none;height: 44px;width: calc((100% / 3) - 1.5rem);margin: 46px 0.75rem;" class="main-button">Gönder</button>
@@ -68,10 +69,90 @@
     </form>
 </div>
 <script>
-
     document.querySelector('#go-form').addEventListener('click', function () {
         document.querySelector('#form-add-el').style.display = 'block';
         document.querySelector('#sumbit-form-button').style.display = 'block';
         document.querySelector('#go-form').style.display = 'none';
     });
+
+
+    $(function (){
+       $('#search-form').submit(function (e){
+           e.preventDefault();
+
+           let btn = $('#sumbit-form-button');
+           let btnText = btn.text();
+
+           let nameAndSurname = $('#name-and-surname').val();
+           let phone = $('#phone').val();
+           let whichService = $('#which-service').val();
+           let customersPerMonth = $('#customers-per-month').val();
+           let howMuchCustomer = $('#how-much-customer').val();
+
+           let url = (window.location !== window.parent.location) ? document.referrer : document.location.href;
+
+           let parseUrl = new URL(url);
+           let lip_page = parseUrl.hostname;
+
+           $.ajax({
+               url: 'https://www.lipyum.com/api/v1/applications/create',
+               type: 'POST',
+               data: JSON.stringify({
+                   firstname: nameAndSurname,
+                   lastname: "Aylık müşteri sayısı - " + customersPerMonth,
+                   phone: phone,
+                   sector: whichService,
+                   location: "Müşteri başına ne kadar - " + howMuchCustomer,
+                   website: lip_page
+               }),
+               headers: {
+                   'Content-Type': 'application/vnd.api+json',
+                   'Accept': 'application/vnd.api+json'
+               },
+               beforeSend: function () {
+                   btn.prop('disabled', true).text('Lütfen Bekleyin...');
+               },
+               success: function (res) {
+                   if (res.status === 'success') {
+                       $('#search-form')[0].reset();
+                       $('#lp-alert-message').html(`<div class="alert alert-success" role="alert" style="margin: 0 0 3rem;">${res.message}</div>`);
+                   } else {
+                       $('#lp-alert-message').html(`<div class="alert alert-danger" role="alert" style="margin: 0 0 3rem;">${res.message}</div>`);
+                   }
+               },
+               error: laravelError,
+               complete: function () {
+                   btn.prop('disabled', false).text(btnText);
+               }
+           });
+
+       });
+    });
+
+    function laravelError(response) {
+        let area = $('#lp-alert-message');
+        let html = '';
+
+        if (response.status === 500) {
+            html += `<div class="alert alert-danger" role="alert" style="margin: 0 0 3rem;">Sunucuda bir hata meydana geldi lütfen daha sonra tekrar deneyin!</div>`;
+            area.html(html);
+            return;
+        } else if (response.status === 403) {
+            html += `<div class="alert alert-danger" role="alert" style="margin: 0 0 3rem;">Bu işlemi yapmaya yetkiniz yok!</div>`;
+            area.html(html);
+            return;
+        } else if (response.status === 404) {
+            html += `<div class="alert alert-danger" role="alert" style="margin: 0 0 3rem;">İstek atılamadı lütfen tekrar deneyin!</div>`;
+            area.html(html);
+            return;
+        }
+
+        response?.responseJSON?.errors && response.responseJSON.errors.forEach(error => {
+            html += `<div class="alert alert-danger" role="alert" style="margin: 0 0 3rem;">${error.detail}</div>`;
+        });
+
+        response?.responseJSON?.error && (html += `<div class="alert alert-danger" role="alert" style="margin: 0 0 3rem;">${response.responseJSON.error}</div>`);
+
+        area.html(html);
+    }
 </script>
