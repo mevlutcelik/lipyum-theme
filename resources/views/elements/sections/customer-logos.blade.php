@@ -56,6 +56,7 @@
         width: auto;
         min-width: 2rem;
         border-radius: 0.25rem;
+        object-fit: cover;
     }
 
     .customer-card .item-text {
