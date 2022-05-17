@@ -37,7 +37,7 @@
         font-size: 14px;
         padding: 0.5rem;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        margin-right: 3rem;
+        margin-right: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;

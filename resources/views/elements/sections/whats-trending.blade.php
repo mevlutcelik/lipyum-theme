@@ -1,7 +1,7 @@
 <section class="whats-trending" style="margin: 5rem 3rem;">
     <div class="container expanded">
         <div class="row">
-            <div class="col-lg-8 align-self-center">
+            <div id="trending-main-content" class="col-md-12 col-lg-8 align-self-center">
                 <div class="section-heading">
                     <h2>LİPYUM - MÜŞTERİ<br><em>DEĞİŞİM PROGRAMI</em></h2>
                 </div>

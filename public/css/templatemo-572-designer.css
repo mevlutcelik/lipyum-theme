@@ -625,6 +625,18 @@ section.whats-trending .right-image .thumb img {
 /*    content: '';*/
 /*}*/
 
+@media all and (max-width: 768px){
+    #trending-main-content{
+        text-align: center;
+    }
+    #trending-main-content .section-heading h2 em{
+        padding-left: 0;
+    }
+    #trending-main-content .section-heading h2 em::before{
+        display: none;
+    }
+}
+
 section.contact-us {
     margin-top: 60px;
     padding: 60px 0px;
