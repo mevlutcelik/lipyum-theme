@@ -84,6 +84,12 @@
                             </a>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div style="font-size: 0.675rem;margin-top: 1.5rem;color: #adb5bd;text-align: center;">Designed by <a title="Mevlüt Çelik" href="https://www.mevlutcelik.com/" style="color: #019751;">Mevlüt Çelik</a></div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
