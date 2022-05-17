@@ -37,7 +37,7 @@
         width: 22rem;
         height: fit-content;
         min-height: 13.5rem;
-        margin-right: 3rem;
+        margin: 0.5rem 3rem 0.5rem 0.5rem;
         cursor: context-menu;
     }
 
@@ -98,18 +98,6 @@
 
     .customer-comment-card:last-child {
         margin-right: 0;
-    }
-
-    @media all and (max-width: 600px) {
-
-        .parent-comment{
-            padding: 0;
-        }
-
-        .customer-comment-card{
-            width: 23rem;
-            padding: 0;
-        }
     }
 
 </style>
