@@ -6,12 +6,12 @@
                 <fieldset>
                     <label for="which-service" class="form-label">Hangi sektör?</label>
                     <input type="text" name="which-service" id="which-service" class="form-control"
-                           placeholder="Hizmet almak istediğin sektör" required>
+                           placeholder="Hangi Sektörden Müşteri İstiyorsun?" required>
                 </fieldset>
             </div>
             <div class="col-lg-4">
                 <fieldset>
-                    <label for="customers-per-month" class="form-label">Aylık müşteri sayısı</label>
+                    <label for="customers-per-month" class="form-label">Müşteri Sayısı</label>
                     <select name="customers-per-month" class="form-select" aria-label="Aylık kaç müşteri istiyorsun?"
                             id="customers-per-month" onChange="this.form.click()">
                         <option selected>Aylık kaç müşteri istiyorsun?</option>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-lg-4">
                 <fieldset>
-                    <label for="how-much-customer" class="form-label">Müşteri başına ne kadar ödeyeceksin?</label>
+                    <label for="how-much-customer" class="form-label">Ödeme</label>
                     <div class="input-group">
                         <label for="how-much-customer" class="input-group-text"
                               style="border-radius:7.5px 0 0 7.5px;width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;background-color: #019751;border-color: #019751">
@@ -68,6 +68,7 @@
         </div>
     </form>
 </div>
+<script src="{{ asset('js/jquery/jquery.inputmask.min.js') }}"></script>
 <script>
     document.querySelector('#go-form').addEventListener('click', function () {
         document.querySelector('#form-add-el').style.display = 'block';
@@ -75,8 +76,10 @@
         document.querySelector('#go-form').style.display = 'none';
     });
 
+    $("#phone").inputmask({"mask": "(999) 999-9999"});
 
     $(function (){
+
        $('#search-form').submit(function (e){
            e.preventDefault();
 
