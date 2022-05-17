@@ -47,10 +47,6 @@
         transition: all 0.3s;
     }
 
-    .customer-card:active{
-        box-shadow: none;
-    }
-
     .customer-card img {
         height: 2rem;
         width: auto;
