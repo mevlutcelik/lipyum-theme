@@ -13,6 +13,9 @@
 
     <title>@yield('title', 'Lipyum')</title>
 
+    <link href="{{ asset('images/lipyum/icon.png') }}" rel="icon">
+    <link href="{{ asset('images/lipyum/icon.png') }}" rel="apple-touch-icon">
+
     <!-- Bootstrap core CSS -->
     <link href="{{ asset('css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
 
