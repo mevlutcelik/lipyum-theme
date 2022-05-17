@@ -2,7 +2,10 @@
 
     <nav class="main-navigation navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home-page') }}"><img width="195" height="48" style="width: 12.172rem;height: 3rem;" src="{{ asset('images/lipyum/lipyum-yatay.png') }}" alt=""></a>
+            <a class="navbar-brand" href="http://localhost:8000" style="display: flex;align-items: center;justify-content: center;">
+                <img width="195" height="48" style="width: 3rem;height: 3rem;padding: 0;" src="{{ asset('images/lipyum/icon.png') }}" alt="Lipyum">
+                <div style="color: #fff;font-weight: 600;margin-left: 0.5rem;">Lipyum</div>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
