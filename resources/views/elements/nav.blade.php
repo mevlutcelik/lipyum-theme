@@ -2,7 +2,7 @@
 
     <nav class="main-navigation navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('home-page') }}" style="display: flex;align-items: center;justify-content: center;">
+            <a title="Lipyum" class="navbar-brand" href="{{ route('home-page') }}" style="display: flex;align-items: center;justify-content: center;">
                 <img width="195" height="48" style="width: 3rem;height: 3rem;padding: 0;" src="{{ asset('images/lipyum/icon.png') }}" alt="Lipyum">
                 <div style="color: #fff;font-weight: 600;margin-left: 0.5rem;">Lipyum</div>
             </a>

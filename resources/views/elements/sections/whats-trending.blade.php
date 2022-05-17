@@ -18,7 +18,7 @@
                     <div class="thumb">
                         <div class="hover-effect">
                             <div class="inner-content">
-                                <h4><a href="#">Çilingir</a></h4>
+                                <h4><a href="#">Lipyum</a></h4>
                                 <span>Bu hafta 940 hizmet verildi.</span>
                             </div>
                         </div>

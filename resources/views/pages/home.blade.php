@@ -2,6 +2,38 @@
 
 @section('title', 'Lipyum')
 @section('desc', 'Hizmet veren ya da Hizmet gönderen olun! Kâr ve kazanç elde edin. Nedir ve nasıl işler merak ediyorsanız hemen kaydolun ve iş almaya veya göndermeye başlayın')
+@section('schemaOrg')
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "address": {
+            "@type": "PostalAddress"
+        },
+            "review": [
+            @foreach($comments as $comment)
+            {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "{{ isset($comment["name"]) ? $comment["name"] : 'Kullanıcı '. rand(1000000,9999999) }}"
+            },
+            "name": "{{ isset($comment["comment"]) ? $comment["comment"] : 'Yorum yüklenemedi!'  }}",
+            "reviewBody": "{{ isset($comment["comment"]) ? $comment["comment"] : 'Yorum yüklenemedi!'  }}",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "{{ isset($comment["rating"]) ? $comment["rating"] : 5  }}",
+                "bestRating": "5"
+            }
+        },
+@endforeach
+        ],
+            "image": "https://www.lipyum.com/front/images/favicon.ico",
+            "name": "Lipyum",
+            "telephone": "0 (850) 308 8170"
+        }
+    </script>
+@endsection
 
 @section('header-page-class', 'main-banner')
 @section('header-content-class', 'search-form')
