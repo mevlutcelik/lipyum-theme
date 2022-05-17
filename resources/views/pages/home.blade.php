@@ -10,8 +10,13 @@
             "address": {
             "@type": "PostalAddress"
         },
+        "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{ isset($comment["rating"]) ? $comment["rating"] : 5  }}",
+        "reviewCount": "{{ rand(500, 3000) }}"
+        },
             "review": [
-            @foreach($comments as $comment)
+            @foreach($comments as $key => $comment)
             {
             "@type": "Review",
             "author": {
@@ -25,7 +30,7 @@
                 "ratingValue": "{{ isset($comment["rating"]) ? $comment["rating"] : 5  }}",
                 "bestRating": "5"
             }
-        },
+        }{{ $key !== count($comments) - 1 ? ',' : null  }}
 @endforeach
         ],
             "image": "{{ asset('images/lipyum/icon.png') }}",
