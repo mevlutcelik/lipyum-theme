@@ -28,18 +28,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <script src="{{ asset('js/jquery/jquery.min.js') }}"></script>
 
-    @yield('schemaOrg', '<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "address": {
-    "@type": "PostalAddress"
-  },
-  "image": "'. asset('images/lipyum/icon.png') .'",
-  "name": "Lipyum",
-  "telephone": "0 (535) 666 9878"
-}
-</script>')
+    @yield('schemaOrg')
 
 </head>
 

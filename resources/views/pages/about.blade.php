@@ -34,7 +34,7 @@
 
         @endforeach
         ],
-            "image": "https://www.lipyum.com/front/images/favicon.ico",
+            "image": "{{ asset('images/lipyum/icon.png') }}",
             "name": "Lipyum",
             "telephone": "0 (850) 308 8170"
         }
