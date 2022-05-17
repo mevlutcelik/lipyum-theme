@@ -801,6 +801,9 @@ footer ul.social-links li a {
 
 footer ul.social-links li a svg {
     margin-right: 3px;
+    fill: currentColor;
+    width: 1rem;
+    height: 1rem;
 }
 
 footer ul.social-links li a:hover {
