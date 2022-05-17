@@ -3,7 +3,10 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="about-widget">
-                    <img width="210" height="52" style="width: auto; height: 52px;" src="{{ asset('images/lipyum/lipyum-yatay.png') }}" alt="designer template by TemplateMo">
+                    <a class="navbar-brand" href="{{ route('home-page') }}" style="display: flex;align-items: center;justify-content: flex-start;margin-bottom: 1rem;">
+                        <img width="195" height="48" style="width: 3rem;height: 3rem;padding: 0;margin-bottom: 0;" src="{{ asset('images/lipyum/icon.png') }}" alt="Lipyum">
+                        <div style="color: #212529;font-weight: 600;margin-left: 0.5rem;">Lipyum</div>
+                    </a>
                     <p>Hizmet veren ya da Hizmet gönderen olun! Kâr ve kazanç elde edin. Nedir ve nasıl işler merak ediyorsanız hemen kaydolun ve iş almaya veya göndermeye başlayın.</p>
                 </div>
             </div>
