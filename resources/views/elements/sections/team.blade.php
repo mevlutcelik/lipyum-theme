@@ -127,7 +127,10 @@
                 <div class="testimonials">
                     <div class="row">
                         <div class="section-heading">
-                            <h2 style="color:#7c47bf;text-align: center;">Ekibimiz</h2>
+                            <div class="section-heading">
+                                <div style="color:#7c47bf;font-size: 1.25rem;text-align: center;font-weight: 600;">Lipyum</div>
+                                <h2 style="text-align: center;">Ekibimiz</h2>
+                            </div>
                         </div>
                         <div class="parent-team">
                             <div class="parent-child-team">

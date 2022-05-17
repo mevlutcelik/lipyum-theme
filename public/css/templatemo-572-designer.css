@@ -53,8 +53,10 @@ p {
     color: #7a7a7a;
 }
 
-.bi.bi-star-fill{
+.bi.bi-star-fill {
     fill: #ffa500;
+    width: 0.75rem;
+    height: 0.75rem;
 }
 
 .main-button {
@@ -150,8 +152,7 @@ section {
     .section-heading h2 {
         font-size: 34px;
         line-height: 48px;
-        text-transform: uppercase;
-        letter-spacing: auto;
+        letter-spacing: initial;
     }
 }
 
@@ -354,7 +355,6 @@ button:focus:not(:focus-visible) {
 .main-banner h6 {
     font-size: 20px;
     color: #ffffff;
-    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2.5px;
 }
@@ -363,7 +363,6 @@ button:focus:not(:focus-visible) {
     color: #ffffff;
     font-size: 50px;
     font-weight: 700;
-    text-transform: uppercase;
     margin-top: 15px;
     margin-bottom: 25px;
 }
@@ -575,7 +574,6 @@ section.whats-trending .right-image .thumb .hover-effect .inner-content h4 a {
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
-    text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
@@ -902,7 +900,6 @@ footer .sub-footer a.scroll-to-top:hover {
     color: #ffffff;
     font-size: 36px;
     font-weight: 700;
-    text-transform: uppercase;
     margin-top: 15px;
     margin-bottom: 25px;
 }
@@ -1158,7 +1155,6 @@ section.interior-design .right-content .accordion-body {
 .call-to-action h2 {
     font-size: 24px;
     font-weight: 700;
-    text-transform: uppercase;
     color: #ffffff;
     margin: 0px 0px 20px 0px;
     text-align: center;
@@ -1187,7 +1183,6 @@ section.explore-item h2 {
     font-weight: 700;
     color: #2a2a2a;
     text-align: center;
-    text-transform: uppercase;
 }
 
 section.explore-item .main-image img {
@@ -1256,7 +1251,6 @@ section.explore-item .down-content h4 {
     font-weight: 700;
     color: #2a2a2a;
     text-align: left;
-    text-transform: uppercase;
 }
 
 section.explore-item .projects-pagination {

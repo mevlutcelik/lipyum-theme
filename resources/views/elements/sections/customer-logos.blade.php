@@ -82,13 +82,20 @@
                 <div class="testimonials">
                     <div class="row">
                         <div class="section-heading">
-                            <h2 style="color:#7c47bf;text-align: center;">Müşterilerimiz</h2>
+                            <div class="section-heading">
+                                <div style="color:#7c47bf;font-size: 1.25rem;text-align: center;font-weight: 600;">Üst Başlık</div>
+                                <h2 style="text-align: center;">Müşterilerimiz</h2>
+                            </div>
                         </div>
                         <div class="parent">
                             <div class="parent-child">
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                        src="https://www.freeiconspng.com/uploads/facebook-text-logo-transparent-10.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Google_Meet_text_logo_%282020%29.svg/2560px-Google_Meet_text_logo_%282020%29.svg.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
@@ -96,7 +103,27 @@
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                        src="https://www.freepnglogos.com/uploads/netflix-logo-text-emblem-31.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://vehlogo.com/wp-content/uploads/2021/03/lamborghini_text_logo.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://www.mobiltel.com.tr/wp-content/uploads/2021/09/samsung-logo-png-samsung-logo-png-2104.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://png.monster/wp-content/uploads/2020/11/Instagram-Logo-1f59e501.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://www.freeiconspng.com/uploads/facebook-text-logo-transparent-10.png" alt="Şirket Adı">
+                                </a>
+                                <a href="#!" class="customer-card">
+                                    <img
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Google_Meet_text_logo_%282020%29.svg/2560px-Google_Meet_text_logo_%282020%29.svg.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
@@ -104,39 +131,19 @@
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                        src="https://www.freepnglogos.com/uploads/netflix-logo-text-emblem-31.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                        src="https://vehlogo.com/wp-content/uploads/2021/03/lamborghini_text_logo.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                        src="https://www.mobiltel.com.tr/wp-content/uploads/2021/09/samsung-logo-png-samsung-logo-png-2104.png" alt="Şirket Adı">
                                 </a>
                                 <a href="#!" class="customer-card">
                                     <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
-                                </a>
-                                <a href="#!" class="customer-card">
-                                    <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
-                                </a>
-                                <a href="#!" class="customer-card">
-                                    <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
-                                </a>
-                                <a href="#!" class="customer-card">
-                                    <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
-                                </a>
-                                <a href="#!" class="customer-card">
-                                    <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
-                                </a>
-                                <a href="#!" class="customer-card">
-                                    <img
-                                        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Şirket Adı">
+                                        src="https://png.monster/wp-content/uploads/2020/11/Instagram-Logo-1f59e501.png" alt="Şirket Adı">
                                 </a>
                             </div>
                         </div>

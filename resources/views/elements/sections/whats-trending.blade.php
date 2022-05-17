@@ -3,7 +3,7 @@
         <div class="row">
             <div id="trending-main-content" class="col-md-12 col-lg-8 align-self-center">
                 <div class="section-heading">
-                    <h2>LİPYUM - MÜŞTERİ<br><em>DEĞİŞİM PROGRAMI</em></h2>
+                    <h2>Lipyum - Müşteri<br><em>Değişim Programı</em></h2>
                 </div>
                 <div class="left-content">
                     <p>Hizmet veren ya da Hizmet gönderen olun! Kâr ve kazanç elde edin. Nedir ve nasıl işler merak ediyorsanız hemen kaydolun ve iş almaya veya göndermeye başlayın.</p>
