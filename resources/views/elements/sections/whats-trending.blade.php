@@ -19,10 +19,11 @@
                         <div class="hover-effect">
                             <div class="inner-content">
                                 <h4><a href="#">Lipyum</a></h4>
-                                <span>Bu hafta 940 hizmet verildi.</span>
+                                @php $randNum = rand(10000,50000); @endphp
+                                <span>Bu hafta {{ substr($randNum, 0, 2) }}.{{ substr($randNum, 2, 3) }} hizmet verildi.</span>
                             </div>
                         </div>
-                        <img style="height: 27rem;width:22rem;object-fit: cover;" src="https://media.istockphoto.com/photos/handyman-repair-the-door-lock-in-the-room-closeup-of-man-repairing-picture-id1309383869?b=1&k=20&m=1309383869&s=170667a&w=0&h=3eS62EB3kpsNOh6TUKtQsb1kw6KHwoWPOZzPF80wvLM=" alt="">
+                        <img style="height: 27rem;width:22rem;object-fit: cover;" src="{{ asset('images/photo-1535223289827-42f1e9919769.avif') }}" alt="">
                     </div>
                 </div>
             </div>
