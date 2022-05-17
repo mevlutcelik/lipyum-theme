@@ -15,15 +15,15 @@
                             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
                                 <div class="accordion-body">
                                     <p>
-                                        <i style="font-size:18px;color: #7c47bf;margin-right: 0.5rem;" class="fa fa-star"></i>
+                                        <i style="font-size:18px;color: #019751;margin-right: 0.5rem;" class="fa fa-star"></i>
                                         Servis sağlayıcılarımızın en yüksek değerlendirme alanlarını sizler için seçiyoruz.
                                     </p>
                                     <p>
-                                        <i style="font-size:18px;color: #7c47bf;margin-right: 0.5rem;" class="fa fa-shield-alt"></i>
+                                        <i style="font-size:18px;color: #019751;margin-right: 0.5rem;" class="fa fa-shield-alt"></i>
                                         Yılda 20.000 den fazla insan Lipyum'a güveniyor.
                                     </p>
                                     <p>
-                                        <i style="font-size:18px;color: #7c47bf;margin-right: 0.5rem;" class="fa fa-thumbs-up"></i>
+                                        <i style="font-size:18px;color: #019751;margin-right: 0.5rem;" class="fa fa-thumbs-up"></i>
                                         Tüm servis sağlayıcılarımızın en iyi hizmeti verdiğinden emin oluyoruz.
                                     </p>
                                 </div>

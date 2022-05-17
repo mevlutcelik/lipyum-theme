@@ -62,7 +62,7 @@
     .customer-comment-card-header .customer-comment-name{
         font-size: 1.125rem;
         font-weight: 500;
-        color: #7c47bf;
+        color: #019751;
     }
 
     .customer-comment-card-header .customer-comment-desc{
@@ -110,7 +110,7 @@
                     <div class="row">
                         <div class="section-heading">
                             <div class="section-heading">
-                                <div style="color:#7c47bf;font-size: 1.25rem;text-align: center;font-weight: 600;">Hakkımızda</div>
+                                <div style="color:#019751;font-size: 1.25rem;text-align: center;font-weight: 600;">Hakkımızda</div>
                                 <h2 style="text-align: center;">Ne Söylediler?</h2>
                             </div>
                         </div>

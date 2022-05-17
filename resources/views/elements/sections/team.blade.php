@@ -128,7 +128,7 @@
                     <div class="row">
                         <div class="section-heading">
                             <div class="section-heading">
-                                <div style="color:#7c47bf;font-size: 1.25rem;text-align: center;font-weight: 600;">Lipyum</div>
+                                <div style="color:#019751;font-size: 1.25rem;text-align: center;font-weight: 600;">Lipyum</div>
                                 <h2 style="text-align: center;">Ekibimiz</h2>
                             </div>
                         </div>

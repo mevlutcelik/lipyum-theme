@@ -30,14 +30,14 @@
                     <label for="how-much-customer" class="form-label">Müşteri başına ne kadar ödeyeceksin?</label>
                     <div class="input-group">
                         <label for="how-much-customer" class="input-group-text"
-                              style="border-radius:7.5px 0 0 7.5px;width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;background-color: #7c47bf;border-color: #7c47bf">
+                              style="border-radius:7.5px 0 0 7.5px;width: 44px;height: 44px;display: flex;align-items: center;justify-content: center;background-color: #019751;border-color: #019751">
                             <svg style="width: 14px;height: 14px;" fill="#fff" xmlns="http://www.w3.org/2000/svg"
                                  width="24" height="24" viewBox="0 0 24 24"><path
                                     d="M17 13c-.518 3.571-2.976 7.609-8 8v-11l7-2v-2l-7 2v-2l7-2v-2l-7 2v-4h-4v5.143l-3 .857v2l3-.857v2l-3 .857v2l3-.857v12.857h.621c4.744 0 7.872-.245 11.016-3.582 1.835-1.948 3.057-4.646 3.363-7.418h-3z"/></svg>
                         </label>
-                        <input name="how-much-customer" id="how-much-customer" style="width: calc(100% - 44px);border-top-left-radius: 0;border-bottom-left-radius: 0;border-left-color: #7c47bf;" id="how-much-per-customer"
-                            type="number" class="form-control" placeholder="Müşteri başına ne kadar ödeyeceksin?"
-                            aria-label="Müşteri başına ne kadar ödeyeceksin?" aria-describedby="how-much-customer" required>
+                        <input name="how-much-customer" id="how-much-customer" style="width: calc(100% - 44px);border-top-left-radius: 0;border-bottom-left-radius: 0;border-left-color: #019751;" id="how-much-per-customer"
+                               type="number" class="form-control" placeholder="Müşteri başına ne kadar ödeyeceksin?"
+                               aria-label="Müşteri başına ne kadar ödeyeceksin?" aria-describedby="how-much-customer" required>
                     </div>
                 </fieldset>
             </div>
