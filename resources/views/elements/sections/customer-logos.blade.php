@@ -83,8 +83,8 @@
                     <div class="row">
                         <div class="section-heading">
                             <div class="section-heading">
-                                <div style="color:#019751;font-size: 1.25rem;text-align: center;font-weight: 600;">Üst Başlık</div>
-                                <h2 style="text-align: center;">Müşterilerimiz</h2>
+                                <div style="color:#019751;font-size: 1.25rem;text-align: center;font-weight: 600;">Bizimle Çalışan</div>
+                                <h2 style="text-align: center;">Firmalar</h2>
                             </div>
                         </div>
                         <div class="parent">
