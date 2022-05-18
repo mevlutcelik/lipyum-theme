@@ -136,7 +136,7 @@
                             <div class="parent-child-team">
                                 <div class="customer-team-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/images/team/denizkanerdogan.jpg"
+                                        src="{{ asset('images/lipyum/denizkanerdogan.webp') }}"
                                         alt="Denizkan ERDOĞAN">
                                     <div class="item-text-team">
                                         Denizkan ERDOĞAN
@@ -158,7 +158,7 @@
                                 </div>
                                 <div class="customer-team-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/images/team/fatihozpolat.jpg"
+                                        src="{{ asset('images/lipyum/fatihozpolat.webp') }}"
                                         alt="Fatih ÖZPOLAT">
                                     <div class="item-text-team">
                                         Fatih ÖZPOLAT
@@ -174,7 +174,7 @@
                                 </div>
                                 <div class="customer-team-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/images/team/handeyilmaz.jpg"
+                                        src="{{ asset('images/lipyum/handeyilmaz.jpg') }}"
                                         alt="Çiğdem Hande YILMAZ">
                                     <div class="item-text-team">
                                         Çiğdem Hande YILMAZ
@@ -190,7 +190,7 @@
                                 </div>
                                 <div class="customer-team-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/images/team/mustafaakkoca.jpg"
+                                        src="{{ asset('images/lipyum/mustafaakkoca.jpg') }}"
                                         alt="M. Mustafa AKKOCA">
                                     <div class="item-text-team">
                                         M. Mustafa AKKOCA
@@ -212,7 +212,7 @@
                                 </div>
                                 <div class="customer-team-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/images/team/marwahkahil.jpg"
+                                        src="{{ asset('images/lipyum/marwahkahil.webp') }}"
                                         alt="Marwah KAHİL">
                                     <div class="item-text-team">
                                         Marwah KAHİL
@@ -228,7 +228,7 @@
                                 </div>
                                 <div class="customer-team-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/images/team/fundasen.jpg"
+                                        src="{{ asset('images/lipyum/fundasen.jpg') }}"
                                         alt="Funda ŞEN">
                                     <div class="item-text-team">
                                         Funda ŞEN
@@ -244,7 +244,7 @@
                                 </div>
                                 <div class="customer-team-card">
                                     <img
-                                        src="https://www.hemengeliriz.com/assets2/images/team/ardagunsuren.jpg"
+                                        src="{{ asset('images/lipyum/ardagunsoren.jpg') }}"
                                         alt="Arda GÜNSÜREN">
                                     <div class="item-text-team">
                                         Arda GÜNSÜREN
