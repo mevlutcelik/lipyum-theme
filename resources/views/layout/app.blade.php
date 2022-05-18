@@ -25,7 +25,6 @@
     <link rel="stylesheet" href="{{ asset('css/templatemo-572-designer.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <script src="{{ asset('js/jquery/jquery.min.js') }}"></script>
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
