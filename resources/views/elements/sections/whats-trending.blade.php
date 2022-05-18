@@ -20,10 +20,10 @@
                             <div class="inner-content">
                                 <h4><a href="#">Lipyum</a></h4>
                                 @php $randNum = rand(10000,50000); @endphp
-                                <span>Bu hafta {{ substr($randNum, 0, 2) }}.{{ substr($randNum, 2, 3) }} hizmet verildi.</span>
+                                <span>Bu hafta {{ substr($randNum, 0, 2) }}.{{ substr($randNum, 2, 3) }} potansiyel müşteri üretildi.</span>
                             </div>
                         </div>
-                        <img style="height: 27rem;width:22rem;object-fit: cover;" src="{{ asset('images/photo-1535223289827-42f1e9919769.avif') }}" alt="">
+                        <img style="height: 27rem;width:22rem;object-fit: cover;" src="{{ asset('images/photo-1626908013351-800ddd734b8a.avif') }}" alt="">
                     </div>
                 </div>
             </div>
