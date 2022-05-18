@@ -244,7 +244,7 @@
                                 </div>
                                 <div class="customer-team-card">
                                     <img
-                                        src="{{ asset('images/lipyum/ardagunsoren.jpg') }}"
+                                        src="{{ asset('images/lipyum/ardagunsuren.jpg') }}"
                                         alt="Arda GÜNSÜREN">
                                     <div class="item-text-team">
                                         Arda GÜNSÜREN
